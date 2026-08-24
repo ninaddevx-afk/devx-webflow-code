@@ -1,3 +1,51 @@
+@font-face {
+  font-family: Rinter;
+  src: url('../fonts/Rinter-Regular.woff2') format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Dmsans;
+  src: url('../fonts/DMSans-Regular.woff2') format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Dmsans;
+  src: url('../fonts/DMSans-SemiBold.woff2') format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Dmsans;
+  src: url('../fonts/DMSans-Medium.woff2') format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Dmsans;
+  src: url('../fonts/DMSans-Bold.woff2') format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Zalandosansexpanded;
+  src: url('../fonts/ZalandoSansExpanded-SemiBold.woff2') format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --_colors---surface--page: #fafafa;
   --_typography---font--body: Dmsans, Arial, sans-serif;
@@ -5665,4 +5713,48 @@ figure {
   #w-node-dd4bead4-35eb-4b88-bb86-31922a40f380-1b1a9bc1 {
     grid-row: span 1 / span 1;
   }
+}
+
+
+@font-face {
+  font-family: 'Rinter';
+  src: url('../fonts/Rinter-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dmsans';
+  src: url('../fonts/DMSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dmsans';
+  src: url('../fonts/DMSans-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dmsans';
+  src: url('../fonts/DMSans-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dmsans';
+  src: url('../fonts/DMSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Zalandosansexpanded';
+  src: url('../fonts/ZalandoSansExpanded-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
