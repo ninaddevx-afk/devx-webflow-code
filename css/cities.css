@@ -501,7 +501,7 @@ em {
 }
 
 .section-contact {
-  background-image: url('../images/contact_bg-lp.avif');
+  background-image: url('https://cdn.prod.website-files.com/6a8be36d59ea67cc7baafdda/6a8d1d4348b405d42b37040d_contact_bg-lp.avif');
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -517,7 +517,7 @@ em {
   border-bottom-left-radius: var(--_size---border-radius--lg);
   border-bottom-right-radius: var(--_size---border-radius--lg);
   background-color: var(--_colors---background--secondary);
-  background-image: url('../images/contact_form-bg.webp');
+  background-image: url('https://cdn.prod.website-files.com/6a8be36d59ea67cc7baafdda/6a8d1e33ac4115086f0059a2_contact_form-bg.webp');
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -735,7 +735,7 @@ em {
   padding: var(--_size---spacing--76x) var(--_size---spacing--40x) var(--_size---spacing--70x);
   border-radius: var(--_size---border-radius--md);
   background-color: var(--_colors---background--light);
-  background-image: url('../images/sec-layer-bg.webp');
+  background-image: url('https://cdn.prod.website-files.com/6a8be36d59ea67cc7baafdda/6a8d1da3be2b450964e3d160_sec-layer-bg.webp');
   background-position: 50px 0;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -992,7 +992,7 @@ em {
 }
 
 .section-gallery {
-  background-image: url('../images/bg-pattern.webp');
+  background-image: url('https://cdn.prod.website-files.com/6a8be36d59ea67cc7baafdda/6a8d1dd1935199b3ec0d53ac_bg-pattern.webp');
   background-repeat: no-repeat;
   background-size: 100%;
   padding-top: clamp(2.5rem, 12.5vw, 11.25rem);
@@ -1184,7 +1184,7 @@ em {
 }
 
 .bg-pattern {
-  background-image: url('../images/contact_bg-lp.avif');
+  background-image: url('https://cdn.prod.website-files.com/6a8be36d59ea67cc7baafdda/6a8d1d4348b405d42b37040d_contact_bg-lp.avif');
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2224,7 +2224,7 @@ em {
 
   .section-contact {
     background-color: var(--_colors---background--secondary);
-    background-image: url('../images/contact_form-bg.webp');
+    background-image: url('https://cdn.prod.website-files.com/6a8be36d59ea67cc7baafdda/6a8d1e33ac4115086f0059a2_contact_form-bg.webp');
   }
 
   .contact-wrapper {
