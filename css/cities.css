@@ -338,6 +338,10 @@ em {
   font-style: italic;
 }
 
+.w-embed:before, .w-embed:after {
+    content: none;
+}
+
 .container {
   max-width: 1185px;
   padding-right: var(--_size---container--horizontal-padding);
@@ -833,6 +837,14 @@ em {
 
 .info-card.is-hover-card:hover {
   background-color: var(--_colors---heading--primary);
+}
+
+.info-card.is-hover-card:hover .comparison-card-title {
+    color: var(--_colors---color--white);
+}
+
+.info-card.is-hover-card:hover .info-card-header-text {
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .info-card-header {
