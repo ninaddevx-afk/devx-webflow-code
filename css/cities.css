@@ -750,7 +750,7 @@ em {
 }
 
 .section-card-body {
-  padding: var(--_size---spacing--76x) var(--_size---spacing--40x) var(--_size---spacing--70x);
+  padding: var(--_size---spacing--70x) var(--_size---spacing--40x) var(--_size---spacing--70x);
   border-radius: var(--_size---border-radius--md);
   background-color: var(--_colors---background--light);
   background-image: url('https://cdn.prod.website-files.com/6a8be36d59ea67cc7baafdda/6a8d1da3be2b450964e3d160_sec-layer-bg.webp');
@@ -1075,7 +1075,6 @@ em {
 .benefits-list-item-title {
   color: var(--_colors---heading--primary);
   font-size: var(--_typography---h5--font-size);
-  line-height: .9;
   font-weight: var(--_typography---font-weight--medium);
 }
 
