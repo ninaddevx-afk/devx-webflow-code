@@ -615,6 +615,42 @@ figure {
   max-width: 7.5rem;
 }
 
+.icon-8x {
+  width: var(--_size---icon--8x);
+  height: var(--_size---icon--8x);
+}
+
+.icon-10x {
+  width: var(--_size---icon--10x);
+  height: var(--_size---icon--10x);
+}
+
+.icon-18x {
+  width: var(--_size---icon--18x);
+  height: var(--_size---icon--18x);
+}
+
+.icon-20x {
+  width: var(--_size---icon--20x);
+  height: var(--_size---icon--20x);
+}
+
+.icon-24x {
+  width: var(--_size---icon--24x);
+  height: var(--_size---icon--24x);
+  flex: none;
+}
+
+.icon-38x {
+  width: var(--_size---icon--38x);
+  height: var(--_size---icon--38x);
+}
+
+.icon-40x {
+  width: var(--_size---icon--40x);
+  height: var(--_size---icon--40x);
+}
+
 .header {
   z-index: 1001;
   position: sticky;
@@ -915,12 +951,6 @@ figure {
   letter-spacing: .32px;
 }
 
-.icon-24x {
-  width: var(--_size---icon--24x);
-  height: var(--_size---icon--24x);
-  flex: none;
-}
-
 .has-gray-gradient {
   background-image: linear-gradient(180deg, var(--_colors---neutral--200), var(--_colors---neutral--400));
 }
@@ -1029,11 +1059,6 @@ figure {
 .text-sm {
   font-size: var(--_typography---text-sm--font-size);
   line-height: var(--_typography---text-sm--line-height);
-}
-
-.icon-20x {
-  width: var(--_size---icon--20x);
-  height: var(--_size---icon--20x);
 }
 
 .nav-dropdown-item-arrow {
@@ -1569,7 +1594,7 @@ form>*:last-child:not([class]) {
   display: none;
 }
 
-.testimonial-card-plus-icon {
+.card-plus-icon {
   width: var(--_size---icon--plus);
   height: var(--_size---icon--plus);
 }
@@ -1647,11 +1672,6 @@ form>*:last-child:not([class]) {
   display: flex;
 }
 
-.icon-38x {
-  width: var(--_size---icon--38x);
-  height: var(--_size---icon--38x);
-}
-
 .highlight-card-richtext strong {
   color: var(--_colors---neutral--950);
   font-weight: var(--_typography---font-weight--normal);
@@ -1703,11 +1723,6 @@ form>*:last-child:not([class]) {
 
 .solution-card-subtext.is-sm {
   min-height: 4lh;
-}
-
-.icon-8x {
-  width: var(--_size---icon--8x);
-  height: var(--_size---icon--8x);
 }
 
 .dashed-border {
@@ -1838,11 +1853,6 @@ form>*:last-child:not([class]) {
 
 .video-controls-btn {
   position: static;
-}
-
-.icon-40x {
-  width: var(--_size---icon--40x);
-  height: var(--_size---icon--40x);
 }
 
 .section-video-controls-wrap {
@@ -2266,11 +2276,6 @@ form>*:last-child:not([class]) {
 .team-card-social-item:where(.w-variant-5b9ac579-168b-4a94-a139-231aae9a8810) {
   grid-column-gap: var(--_size---gap--12x);
   grid-row-gap: var(--_size---gap--12x);
-}
-
-.icon-18x {
-  width: var(--_size---icon--18x);
-  height: var(--_size---icon--18x);
 }
 
 .team-card-social-link {
@@ -5539,8 +5544,8 @@ td {
   }
 
   .footer-linkbox-list-item:nth-child(2n) {
-      border-right: 0;
-    }
+    border-right: 0;
+  }
 
   .form-button.is-space-sm {
     margin-top: var(--_size---spacing--28x);
