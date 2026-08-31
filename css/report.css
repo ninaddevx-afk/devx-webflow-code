@@ -720,7 +720,7 @@ figure {
 
 .header-btm {
   color: var(--_colors---text--inverse);
-  background-image: url('../images/header-bottom-bg_1header-bottom-bg.avif');
+  background-image: url('https://cdn.prod.website-files.com/6a8be36d59ea67cc7baafdda/6a954d3c775892b4ac52b353_header-bottom-bg.avif');
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -1359,7 +1359,7 @@ figure {
   padding: var(--_size---spacing--48x) var(--_size---spacing--24x);
   border-radius: var(--_size---border-radius--16x);
   color: var(--_colors---text--inverse);
-  background-image: url('../images/footer-form-bg.webp');
+  background-image: url('https://cdn.prod.website-files.com/6a8be36d59ea67cc7baafdda/6a954db23b4d6e17511a5e29_footer-form-bg.webp');
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -1961,7 +1961,7 @@ form>*:last-child:not([class]) {
   border-radius: var(--_size---border-radius--6x);
   color: var(--_colors---text--primary);
   background-color: #0000;
-  background-image: url('../images/customer-card-bg.webp');
+  background-image: url('https://cdn.prod.website-files.com/6a8be36d59ea67cc7baafdda/6a954d0637abe1493e1dd23a_customer-card-bg.webp');
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -2724,7 +2724,7 @@ form>*:last-child:not([class]) {
 .form-checkbox.w--redirected-checked {
   border-color: var(--_colors---surface--primary);
   background-color: var(--_colors---surface--primary);
-  background-image: url('../images/tick.svg');
+  background-image: url('https://cdn.prod.website-files.com/6a8be36d59ea67cc7baafdda/6a9515db330bcb583cd73fdd_tick.svg');
   background-size: auto;
 }
 
@@ -3740,7 +3740,7 @@ form>*:last-child:not([class]) {
 }
 
 .report-card-header {
-  background-image: url('../images/report-form-header-bg.webp');
+  background-image: url('https://cdn.prod.website-files.com/6a8be36d59ea67cc7baafdda/6a9024147e4ca88803ce87ce_report-form-header-bg.webp');
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -4585,7 +4585,7 @@ td {
   .nav-list-wrapper.is-header-btm {
     border-top-color: color-mix(in srgb, var(--_colors---white) 10%, transparent);
     border-bottom-color: color-mix(in srgb, var(--_colors---white) 10%, transparent);
-    background-image: url('../images/header-bottom-menu-bg_1header-bottom-menu-bg.avif');
+    background-image: url('https://cdn.prod.website-files.com/6a8be36d59ea67cc7baafdda/6a954d3c775892b4ac52b353_header-bottom-bg.avif');
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
