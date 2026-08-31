@@ -3665,6 +3665,10 @@ form>*:last-child:not([class]) {
   margin-bottom: 0;
 }
 
+.report-form-group.span-2 {
+  grid-area: span 1 / span 2 / span 1 / span 2;
+}
+
 .report-form-control {
   height: auto;
   padding: var(--_size---spacing--8x) var(--_size---spacing--12x);
@@ -5679,6 +5683,10 @@ td {
     grid-template-columns: 1fr;
   }
 
+  .report-form-group.span-2 {
+    grid-column: span 1 / span 1;
+  }
+
   .info-richtext p {
     margin-bottom: var(--_size---spacing--18x);
   }
@@ -5861,6 +5869,7 @@ td {
 }
 
 @media screen and (max-width: 479px) {
+
   #w-node-_8816f241-e18b-3711-2931-bc8b82ca4a97-0029f2ab {
     grid-row: span 1 / span 1;
   }
