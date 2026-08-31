@@ -2203,7 +2203,13 @@ form>*:last-child:not([class]) {
   max-width: 7.5rem;
 }
 
+.section-card-item {
+  display: flex;
+}
+
 .team-card {
+  display: flex;
+  flex-direction: column;
   border-radius: var(--_size---border-radius--12x);
   overflow: hidden;
 }
@@ -2234,6 +2240,7 @@ form>*:last-child:not([class]) {
   background-color: var(--_colors---surface--section);
   flex-flow: column;
   display: flex;
+  flex: 1 1 auto;
 }
 
 .team-card-content:where(.w-variant-5b9ac579-168b-4a94-a139-231aae9a8810) {
@@ -2265,6 +2272,10 @@ form>*:last-child:not([class]) {
 .team-card-bio:where(.w-variant-5b9ac579-168b-4a94-a139-231aae9a8810) {
   font-size: var(--_typography---text-xxsm--font-size);
   line-height: var(--_typography---text-xxsm--line-height);
+}
+
+.team-card-social {
+    margin-top: auto;
 }
 
 .team-card-social-item {
