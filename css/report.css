@@ -3613,7 +3613,7 @@ form>*:last-child:not([class]) {
 }
 
 .report-richtext h2 {
-    margin-bottom: var(--_size---spacing--24x)
+    margin-bottom: var(--_size---spacing--24x);
 }
 
 .report-richtext p {
