@@ -3612,6 +3612,10 @@ form>*:last-child:not([class]) {
   letter-spacing: var(--_typography---letter-spacing--n2);
 }
 
+.report-richtext h2 {
+    margin-bottom: var(--_size---spacing--24x)
+}
+
 .report-richtext p {
   margin-bottom: var(--_size---spacing--32x);
   font-size: var(--_typography---size--fs-16x);
@@ -3716,6 +3720,7 @@ form>*:last-child:not([class]) {
 .report-form-label {
   font-size: var(--_typography---text-sm--font-size);
   line-height: var(--_typography---text-sm--line-height);
+  text-transform: capitalize;
 }
 
 .report-form-label.sr-only {
