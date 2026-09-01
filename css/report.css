@@ -2674,6 +2674,10 @@ form>*:last-child:not([class]) {
   height: 5rem;
 }
 
+.lead-form input[type='submit']+div {
+  display: none !important;
+}
+
 .form-check {
   color: var(--_colors---text--muted);
   font-size: var(--_typography---size--fs-10x);
@@ -2784,6 +2788,17 @@ form>*:last-child:not([class]) {
   padding-top: 0;
   display: flex;
   position: static;
+}
+
+.lead-card-slide-nav .w-slider-dot {
+  width: 0.75rem;
+  height: 0.5rem;
+  margin: 0;
+  background-color: var(--_colors---navigation--inactive);
+}
+
+.lead-card-slide-nav .w-slider-dot.w-active {
+  background-color: var(--_colors---navigation--active);
 }
 
 .form-success {
@@ -3999,6 +4014,43 @@ td {
 
 .info-table tbody tr:nth-child(even) td:not([rowspan]) {
   background: var(--_colors---white);
+}
+
+.iti {
+  --iti-border-width: 0.8px;
+}
+
+.iti--has-country-selector {
+  width: 100%;
+}
+
+.iti__country,
+.iti__selected-dial-code {
+  margin: 0;
+  font-size: var(--_typography---text-sm--font-size);
+  line-height: var(--_typography---text-sm--line-height);
+}
+
+.iti__selected-country {
+  padding: var(--_size---spacing--8x);
+  background: var(--_colors---surface--card);
+  border-radius: var(--_size---border-radius--6x) 0 0 var(--_size---border-radius--6x);
+}
+
+.iti__selected-country-primary {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .tabs-menu::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-bottom: 1px dashed var(--_colors---border--medium);
+    z-index: -1;
+  }
 }
 
 @media screen and (min-width: 1280px) {
