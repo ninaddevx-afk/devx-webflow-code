@@ -1420,7 +1420,7 @@ form>*:last-child:not([class]) {
   padding-right: var(--_size---folder-card--padding-inline);
   padding-bottom: var(--_size---folder-card--padding-block);
   padding-left: var(--_size---folder-card--padding-inline);
-  border-top-left-radius: 0;
+  border-top-left-radius: var(--_size---border-radius--20x);
   border-top-right-radius: var(--_size---border-radius--20x);
   border-bottom-left-radius: var(--_size---border-radius--20x);
   border-bottom-right-radius: var(--_size---border-radius--20x);
@@ -1448,6 +1448,10 @@ form>*:last-child:not([class]) {
   align-items: center;
   display: flex;
   position: relative;
+}
+
+.folder-card-tab+.folder-card-body {
+  border-top-left-radius: 0;
 }
 
 .folder-card-tab::after {
@@ -2275,7 +2279,7 @@ form>*:last-child:not([class]) {
 }
 
 .team-card-social {
-    margin-top: auto;
+  margin-top: auto;
 }
 
 .team-card-social-item {
@@ -3613,7 +3617,7 @@ form>*:last-child:not([class]) {
 }
 
 .report-richtext h2 {
-    margin-bottom: var(--_size---spacing--24x);
+  margin-bottom: var(--_size---spacing--24x);
 }
 
 .report-richtext p {
@@ -3868,7 +3872,6 @@ form>*:last-child:not([class]) {
 
 .faq-accordion-toggle {
   width: 100%;
-  height: var(--_size---accordion--height);
   padding: var(--_size---accordion--header-padding);
   grid-column-gap: var(--_size---gap--16x);
   grid-row-gap: var(--_size---gap--16x);
