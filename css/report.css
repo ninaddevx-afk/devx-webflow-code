@@ -3699,6 +3699,10 @@ form>*:last-child:not([class]) {
   margin-bottom: 0;
 }
 
+.report-form-title {
+  margin-bottom: var(--_size---spacing--24x);
+}
+
 .report-form-group.span-2 {
   grid-area: span 1 / span 2 / span 1 / span 2;
 }
@@ -5748,6 +5752,10 @@ td {
   .report-form {
     grid-row-gap: var(--_size---spacing--12x);
     grid-template-columns: 1fr;
+  }
+
+  .report-form-title {
+    margin-bottom: var(--_size---spacing--16x);
   }
 
   .report-form-group.span-2 {
