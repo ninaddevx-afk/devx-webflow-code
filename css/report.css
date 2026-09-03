@@ -3628,12 +3628,21 @@ form>*:last-child:not([class]) {
 }
 
 .report-logos {
-  margin-top: var(--_size---spacing--20x);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: var(--_size---gap--24x);
+  row-gap: var(--_size---gap--24x);
+  margin-top: var(--_size---spacing--32x);
 }
 
 .report-logo {
   width: 100%;
-  max-width: 11.25rem;
+  max-width: 8rem;
+}
+
+.report-logo.is-devx {
+  max-width: 6rem;
 }
 
 .report-richtext h1 {
@@ -5021,10 +5030,6 @@ td {
     width: 100%;
   }
 
-  .report-logo {
-    max-width: 10rem;
-  }
-
   .report-card-slider-mask {
     max-width: 12rem;
   }
@@ -5419,7 +5424,17 @@ td {
   }
 
   .report-logos {
-    margin-top: var(--_size---spacing--16x);
+    column-gap: var(--_size---gap--18x);
+    row-gap: var(--_size---gap--18x);
+    margin-top: var(--_size---spacing--24x);
+  }
+
+  .report-logo {
+    max-width: 7rem;
+  }
+
+  .report-logo.is-devx {
+    max-width: 5rem;
   }
 
   .report-card-title {
@@ -5771,12 +5786,12 @@ td {
     grid-template-columns: 1fr;
   }
 
-  .report-form-title {
-    margin-bottom: var(--_size---spacing--16x);
+  .report-logo {
+    max-width: 6rem;
   }
 
-  .report-logo {
-    max-width: 9rem;
+  .report-form-title {
+    margin-bottom: var(--_size---spacing--16x);
   }
 
   .report-form-group.span-2 {
