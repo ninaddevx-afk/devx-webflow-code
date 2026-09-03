@@ -595,6 +595,11 @@ figure {
   height: 1px;
 }
 
+.divider.is-vr {
+  width: 0.125rem;
+  height: 1.875rem;
+}
+
 .divider.is-info-card {
   border: 1px dashed var(--_colors---overlay--white-10);
   background-color: var(--_colors---transparent);
@@ -5200,6 +5205,11 @@ td {
     --_typography---size--fs-67x: 4.1875rem;
     --_typography---size--fs-79x: 4.9375rem;
     --_typography---size--fs-89x: 5.5625rem;
+  }
+
+  .divider.is-vr {
+    width: 0.09375rem;
+    height: 1.25rem;
   }
 
   .nav-list {
